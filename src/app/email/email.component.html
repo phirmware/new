@@ -1,0 +1,4 @@
+
+  <div class="list-group" *ngFor="let emails of email">
+    <a [routerLink]="['/names',emails.name]" class="list-group-item active">{{emails.email}} <button class="btn btn-danger" (click)="onClick()">Name</button></a>
+  </div>

@@ -1,0 +1,62 @@
+form{
+    width: 50%;
+    height: 300px;
+    margin-top: 10px;
+}
+input{
+    margin-top: 20px;
+    border: none;
+    border-bottom: solid 1px;
+    width: 40%;
+    box-shadow: none;
+    transition-duration: 5s;
+    
+}
+input:hover{
+    border-top: 3px;
+    transition: 1s;
+    top: 2px;
+    font-size: 30px;
+    border: none;
+    border-bottom: solid 2px black;
+    width: 50%;
+    
+    
+}
+input:focus{
+    box-shadow: none;
+    border: none;
+    border-bottom: solid 2px black;
+    font-size: 20px;
+    color:black;
+    font-family:  "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    transition: 2s;
+    width: 50%;
+}
+.btn{
+    margin-top: 15px;
+}
+.btn:hover{
+    transition: 2s;
+    background: darkblue;
+    top: 2px;
+}
+.alert{
+    border: none;
+    background-color: white;
+    color: darkred;
+    width: 30%;
+    height: 40px;
+    padding: 2px;
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    transition: 2s;
+    animation-iteration-count:infinite;
+}
+h2{
+    position: relative;
+}
+
+.loginerror{
+    animation-iteration-count: 0;
+    transition-duration: 2s;
+}

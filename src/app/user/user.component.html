@@ -1,0 +1,4 @@
+ <a routerLink="/home" (click)="authService.logout()">Log Out</a>
+ 
+<p *ngIf="authService.isLoggedIn()">Welcome {{authService.currentUser().name}}</p>
+

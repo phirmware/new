@@ -1,0 +1,15 @@
+
+
+<h2 class="animated slideInDown">LogIn</h2>
+<form [formGroup]="login" (ngSubmit)="signin()">
+  <div class="form-group animated slideInUp">
+    <div class="alert alert-danger loginerror animated slideInDown" *ngIf="invalidLogin">invalid login</div>
+    <label for="email">Email</label>
+    <input id="email" type="text" class="form-control" formControlName="email">
+    <div class="alert alert-danger animated shake" *ngIf="login.get('email').touched && login.get('email').invalid">Input required</div>
+    <label for="password">Password</label>
+    <input id="password" type="text" class="form-control" formControlName="password">
+    <div class="alert alert-danger animated shake" *ngIf="login.get('password').touched && login.get('password').invalid">Input your password</div>
+    <button class="btn btn-info">LogIn</button>
+  </div>
+</form>

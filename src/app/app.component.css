@@ -1,0 +1,57 @@
+
+main{
+    margin: 0px;
+}
+
+.side{
+    background: lightslategrey;
+    margin-left: 0px;
+}
+
+.btn{
+    background: dimgray;
+    color: lightblue;
+    border: none;
+    border-radius: 8px;
+    margin: 0px;
+}
+
+.header{
+    height: 630px;
+    width: 1320px;
+    background: url("https://cdn-images-1.medium.com/max/2000/1*5Pqd_3TpVaf_kPqnqHH00Q.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-radius: 4px;
+    
+}
+.header>p{
+    background-color: rgba(204, 81, 81, 0.5);
+    width: 300px;
+    height: 210px;
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 500px;
+    position: absolute;
+    border-radius: 4px;
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    transition-duration: 4s;
+}
+
+.angular{
+    animation-delay: 4s;
+}
+
+.header>p:hover{
+    color: red;
+    background: rgba(0,0, 0, 0.5);
+    transition: 2s;
+    
+}
+
+app-nav{
+    margin-bottom: 0px;
+}

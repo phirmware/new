@@ -1,0 +1,14 @@
+.nav{
+    animation-delay: 3s;
+}
+
+.navbar-brand{
+    animation-delay: 2s;
+}
+
+li{
+    padding-left: 80px;
+    font-size: 25px;
+    color: goldenrod;
+    font-family:  Papyrus, fantasy;
+}
